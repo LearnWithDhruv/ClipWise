@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Video Script Generator</title>
+  <link href="tailwind.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-4xl mx-auto bg-white p-6 rounded shadow">
+    <h1 class="text-2xl font-bold mb-4">AI Video Script Generator</h1>
+    <textarea id="prompt" class="w-full p-3 border rounded mb-4" placeholder="Enter your prompt..."></textarea>
+    <input type="file" id="fileInput" class="mb-4">
+    <button id="generateBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Generate Script</button>
+    <div id="output" class="mt-6"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
